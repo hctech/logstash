@@ -1,3 +1,3 @@
-FROM logstash:5-alpine
+FROM logstash:5
 
 RUN logstash-plugin install logstash-filter-multiline
